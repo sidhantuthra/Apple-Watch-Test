@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "554694D21A1D4FA7000E532D"
+               BuildableName = "Apple Watch Test Watch App.app"
+               BlueprintName = "Apple Watch Test Watch App"
+               ReferencedContainer = "container:Apple Watch Test.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "554694971A1D4F38000E532D"
                BuildableName = "Apple Watch Test.app"
                BlueprintName = "Apple Watch Test"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "554694B01A1D4F39000E532D"
-               BuildableName = "Apple Watch TestTests.xctest"
-               BlueprintName = "Apple Watch TestTests"
+               BlueprintIdentifier = "554694C41A1D4FA7000E532D"
+               BuildableName = "Apple Watch Test WatchKit Extension.appex"
+               BlueprintName = "Apple Watch Test WatchKit Extension"
                ReferencedContainer = "container:Apple Watch Test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "554694B01A1D4F39000E532D"
-               BuildableName = "Apple Watch TestTests.xctest"
-               BlueprintName = "Apple Watch TestTests"
-               ReferencedContainer = "container:Apple Watch Test.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "554694971A1D4F38000E532D"
-            BuildableName = "Apple Watch Test.app"
-            BlueprintName = "Apple Watch Test"
+            BlueprintIdentifier = "554694D21A1D4FA7000E532D"
+            BuildableName = "Apple Watch Test Watch App.app"
+            BlueprintName = "Apple Watch Test Watch App"
             ReferencedContainer = "container:Apple Watch Test.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -102,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Apple Watch Test">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "554694971A1D4F38000E532D"
-            BuildableName = "Apple Watch Test.app"
-            BlueprintName = "Apple Watch Test"
+            BlueprintIdentifier = "554694D21A1D4FA7000E532D"
+            BuildableName = "Apple Watch Test Watch App.app"
+            BlueprintName = "Apple Watch Test Watch App"
             ReferencedContainer = "container:Apple Watch Test.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "554694D21A1D4FA7000E532D"
+            BuildableName = "Apple Watch Test Watch App.app"
+            BlueprintName = "Apple Watch Test Watch App"
+            ReferencedContainer = "container:Apple Watch Test.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
